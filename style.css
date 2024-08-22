@@ -1,0 +1,34 @@
+body{
+    color: rgb(3, 3, 3);
+   /* background-image: linear-gradient(rgb(255, 136, 0), rgb(248, 247, 245), black );*/
+   background-image:url("https://www.papeldeparede.etc.br/fotos/wp-content/uploads/Girassol4.jpg") ;
+   background-size: cover ;
+   }
+
+p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.Titulo{ //*class*/
+
+}
+
+#seletor { /*id*/
+
+}
+
+ul{
+  font-size: 20px ;
+  text-align: center;
+}  
+
+ol{
+   font-size: 20px ;
+   color: rgb(61, 4, 33);
+}
+
+ul{
+   font-size: 20px ;
+   color: rgb(245, 245, 245);
+}
