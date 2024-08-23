@@ -1,34 +1,23 @@
-body{
-    color: rgb(3, 3, 3);
-   /* background-image: linear-gradient(rgb(255, 136, 0), rgb(248, 247, 245), black );*/
-   background-image:url("https://www.papeldeparede.etc.br/fotos/wp-content/uploads/Girassol4.jpg") ;
-   background-size: cover ;
-   }
-
-p{
-  font-size: 20px;
-  text-align: center;
+* {
+   margin: 0 auto;
+   padding: 0; 
 }
 
-.Titulo{ //*class*/
-
+.menu-horizontal{
+    background-color: rgba(37, 37, 39, 0.31);
 }
 
-#seletor { /*id*/
-
+.menu-horizontal ul{
+    max-width: 800px;
 }
 
-ul{
-  font-size: 20px ;
-  text-align: center;
-}  
-
-ol{
-   font-size: 20px ;
-   color: rgb(61, 4, 33);
+.menu-horizontal ul li{
+    display: inline; /*em linha*/
 }
 
-ul{
-   font-size: 20px ;
-   color: rgb(245, 245, 245);
+.menu-horizontal ul li a{
+    color: #FFF; /*texto*/
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none; /*retira padrão do fiperlink*/
 }
