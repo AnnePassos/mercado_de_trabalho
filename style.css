@@ -1,23 +1,14 @@
-* {
-   margin: 0 auto;
-   padding: 0; 
+<style>
+.container{
+    width: 80%;
+    margin:0 auto;
 }
-
-.menu-horizontal{
-    background-color: rgba(37, 37, 39, 0.31);
+.text{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
 }
-
-.menu-horizontal ul{
-    max-width: 800px;
+.text: hover{
+    color: red;
 }
-
-.menu-horizontal ul li{
-    display: inline; /*em linha*/
-}
-
-.menu-horizontal ul li a{
-    color: #FFF; /*texto*/
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none; /*retira padrão do fiperlink*/
-}
+</style>
